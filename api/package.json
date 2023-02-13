@@ -1,0 +1,31 @@
+{
+    "name": "setting-up-backend",
+    "version": "1.0.0",
+    "description": "Backend Setup",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WellsTraven-FS/Setting-Up-Backend.git"
+    },
+    "keywords": [
+        "Backend"
+    ],
+    "author": "Traven Wells",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/WellsTraven-FS/Setting-Up-Backend/issues"
+    },
+    "homepage": "https://github.com/WellsTraven-FS/Setting-Up-Backend#readme",
+    "dependencies": {
+        "@travenwells0476/utils": "^1.0.0",
+        "body-parser": "^1.20.1",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
